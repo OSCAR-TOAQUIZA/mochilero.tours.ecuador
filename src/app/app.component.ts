@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  public iniciar = false;
+  start() {
+    this.iniciar = true;
+  }
 }
